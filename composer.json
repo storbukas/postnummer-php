@@ -1,0 +1,33 @@
+{
+    "name": "storbukas/postnummer",
+    "description": "Norske postnummer - Norwegian postal codes",
+    "keywords": ["norway", "norwegian", "postnummer", "postal codes", "zip codes", "bring", "posten"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lars Erik Storbukås",
+            "homepage": "https://github.com/storbukas"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Storbukas\\Postnummer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Storbukas\\Postnummer\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
