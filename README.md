@@ -92,7 +92,7 @@ Postal code data is sourced from [Bring](https://www.bring.no/tjenester/adresset
 
 ## Requirements
 
-- PHP 8.0 or higher
+- PHP 8.1 or higher
 
 ## License
 
